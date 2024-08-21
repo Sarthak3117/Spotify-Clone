@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+input[type="submit"] {
+    background-color: #4dae4d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 49% ;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+input[type="submit"]:hover{
+    background-color: #469b40;
+}
+input[type="reset"] {
+    background-color: #4dae4d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 49%;
+}
+input[type="reset"]:hover{
+    background-color: #3e8f38;
+}
+fieldset {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.container{
+    background-color: #0D0D0D;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+html{
+    background-color: black;
+}
+nav{
+    font-family:  'Nunito', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a :hover{
+    background-color: #0D0D0D;
+}
